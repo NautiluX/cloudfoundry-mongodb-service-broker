@@ -5,11 +5,11 @@ applications:
   instances: 1
   path: build/libs/service-broker-mongodb.jar
   routes:
-  - route: mongodb-service-broker.sys.humourmind.com
+  - route: mongodb-service-broker.dev1.cf-k8s.sapcloud.io
   env:
-    #MONGODB_HOST: sys.humourmind.com
-    #MONGODB_PORT: 27017
-    #MONGODB_USERNAME: admin
-    #MONGODB_PASSWORD: password
+    MONGODB_HOST: mongodb.services.svc.cluster.local
+    MONGODB_PORT: 27017
+    MONGODB_USERNAME: admin
+    MONGODB_PASSWORD: password
     SECURITY_USER_NAME: admin
-    SECURITY_USER_PASSWORD: admin
+    SECURITY_USER_PASSWORD: password

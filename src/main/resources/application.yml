@@ -1,3 +1,6 @@
+cf:
+  user: admin
+  password: admin
 mongodb:
   host: x.x.x.x
   port: 31000

@@ -28,7 +28,7 @@ public class CatalogConfig {
 
     public enum ServicePlan {
 
-        DEFAULT("default", "default", "This is a default mongo free plan", true, true, getPlanMetadata(D)),
+        DEFAULT("v3.4-dev" , "v3.4-dev" , "This is a default mongo free plan", true, true, getPlanMetadata(D)),
         GOLD("gold", "gold", "This is a paid mongo plan", false, true, getPlanMetadata(G)),
         PLATINUM("platinum", "platinum", "This is a paid premium mongo plan", false, true, getPlanMetadata(P));
 
